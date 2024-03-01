@@ -30,7 +30,7 @@ color: #777;
 transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
 pointer-events: none;
 z-index: 100;
-background-color: #fff;
+background-color: rgba(255, 255, 255, 0.945);
 padding: 0 5px;;
 }
 

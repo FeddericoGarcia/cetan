@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#bg-svg{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.bg-white{
+    background-color: rgba(255, 255, 255, 0.945)!important;
+    max-width: 480px;
+    height: auto;
+}
+
+#pass:hover{
+    border-bottom: 1px solid rgba(114, 114, 114, 0.945);
+}
