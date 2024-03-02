@@ -1,11 +1,13 @@
 import React from "react";
-import '../../assets/css/form.css';
-import '../../assets/js/input.js';
+import Header from "../header/header.jsx";
+// import '../../assets/css/form.css';
+// import '../../assets/js/input.js';
 
 
 const FormDB = () =>{
     return(
-        <div className="App mt-3">
+        <div className="App">
+            < Header />
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="bg-svg">
                 <svg class="w-full h-full" viewBox="0 0 400 400">
                     <defs>
@@ -31,55 +33,62 @@ const FormDB = () =>{
                     <rect x="0" y="0" width="100%" height="100%" fill="url(#bg_pattern)" opacity="1"></rect>
                 </svg>
             </svg>
-            <h1>Cetan SaS</h1>
-            <h3>Ingresá los datos del cliente</h3>
-            <div className="container mt-2 p-3">
-                <form id="form">
-                    <div className="form-group">
-                        <input type="text" id="nombreInput" className="input-field" placeholder='' required></input>
-                        <label htmlFor="nombreInput" className="input-label">Nombre y Apellido</label>
-                        <div className="invalid-feedback">
-                            Por favor, completá éste campo
+            <div className="container-fluid bg-white mt-4 p-3 shadow rounded">
+                <h3 className="text-center">Ingresá los datos de busqueda</h3>
+                <div className="mt-2 p-3">
+                    <form id="form">
+                        <div className="form-group">
+                            <input type="text" id="nombreInput" className="input-field" placeholder=''></input>
+                            <label htmlFor="nombreInput" className="input-label rounded">Nombre de Asesor</label>
+                            <div className="invalid-feedback">
+                                Por favor, completá éste campo
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group">
-                        <input type="number" id="telefonoInput" className="input-field" placeholder='' required></input>
-                        <label htmlFor="telefonoInput" className="input-label">Teléfono</label>
-                        <div className="invalid-feedback">
-                            Por favor, completá éste campo
+                        <div className="form-group">
+                            <input type="date" id="dateInput" className="input-field" placeholder=''></input>
+                            <label htmlFor="dateInput" className="input-label rounded">Fecha</label>
+                            <div className="invalid-feedback">
+                                Por favor, completá éste campo
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group">
-                        <input type="number" id="comprobanteInput" className="input-field" placeholder='' required></input>
-                        <label htmlFor="comprobanteInput" className="input-label">N° de Comprobante</label>
-                        <div className="invalid-feedback">
-                            Por favor, completá éste campo
+                        <div className="form-group">
+                            <input type="text" id="nombreInput" className="input-field" placeholder=''></input>
+                            <label htmlFor="nombreInput" className="input-label rounded">Nombre de Cliente</label>
+                            <div className="invalid-feedback">
+                                Por favor, completá éste campo
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group">
-                        <input type="number" id="importeInput" className="input-field" placeholder='' required></input>
-                        <label htmlFor="importeInput" className="input-label">Importe de comprobante</label>
-                        <div className="invalid-feedback">
-                            Por favor, completá éste campo
+                        <div className="form-group">
+                            <input type="number" id="telefonoInput" className="input-field " placeholder=''></input>
+                            <label htmlFor="telefonoInput" className="input-label rounded">Teléfono</label>
+                            <div className="invalid-feedback">
+                                Por favor, completá éste campo
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group">
-                        <textarea typle="text" id="comentarioInput" className="input-field" placeholder=''></textarea>
-                        <label htmlFor="comentarioInput" className="input-label">Comentarios</label>
-                        <div className="invalid-feedback">
-                            Por favor, completá éste campo
+                        <div className="form-group">
+                            <input type="number" id="comprobanteInput" className="input-field " placeholder=''></input>
+                            <label htmlFor="comprobanteInput" className="input-label rounded">N° de Comprobante</label>
+                            <div className="invalid-feedback">
+                                Por favor, completá éste campo
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div className="col-12 btn-group">
-                        <div>
-                            <button className=" btn btn-warning btn-lg" type="reset" id="btn_delete">Borrar</button>
+                        <div className="form-group">
+                            <input type="number" id="importeInput" className="input-field " placeholder=''></input>
+                            <label htmlFor="importeInput" className="input-label rounded">Importe de comprobante</label>
+                            <div className="invalid-feedback">
+                                Por favor, completá éste campo
+                            </div>
+                        </div>                        
+                        <div className="col-12 btn-group">
+                            <div>
+                                <button className=" btn btn-warning btn-lg" type="reset" id="btn_delete">Borrar</button>
+                            </div>
+                            <div>
+                                <button className="btn btn-success btn-lg" type="button" id="btn_submit">Enviar</button>  
+                            </div>
                         </div>
-                        <div>
-                            <button className="btn btn-success btn-lg" type="button" id="btn_submit">Buscar</button>  
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
 )};

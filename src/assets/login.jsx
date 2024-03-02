@@ -52,8 +52,10 @@ const Login = () =>{
                             Por favor, verificá los datos ingresados
                         </div>
                     </div>  
-                    <a href="/src/passwordRecovery" id='pass' className='text-muted text-decoration-none'><small>¿Olvidaste la contraseña?</small></a>
-                    <div className="form-group mt-3">
+                    <a href="/src/passwordRecovery" id='pass' className='text-muted text-decoration-none'>
+                        <small>¿Olvidaste la contraseña?</small>
+                    </a>
+                    <div className="form-group mt-4">
                         <button type="submit" className="btn btn-dark w-100">Ingresar</button>
                     </div>
                 </form>
