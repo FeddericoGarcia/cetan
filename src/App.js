@@ -1,7 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import 'bootstrap';
-import './assets/css/form.css';
 import FormModal from './components/forms/formModal.jsx';
 import FormModalSearch from './components/forms/formModalSearch.jsx'
 import Login from './assets/login.jsx';
@@ -11,10 +9,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/*" element={<PageNotFound />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/form" element={<FormModal />} />
         <Route path="/form-search" element={<FormModalSearch />}  />
+        {/* <Route path="/search-result" element={<SearchResult />}  /> */}
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </Router>
   );

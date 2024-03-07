@@ -7,6 +7,11 @@
   }
 
 /********* CONFIGURACION DE FORM *********/
+.bg-form{
+  background-color: rgba(255, 255, 255, 0.945)!important;
+  max-width: 480px;
+  height: auto;
+}
 
 .form-group {
 position: relative;

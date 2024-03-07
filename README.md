@@ -4,11 +4,8 @@ Proyecto creado para la empresa CETAN SaS
 
 ## Información
 
-En éste proyecto se desarrollará la página de la empresa, la cual incluirá la carga de formularios para sus clientes como también su landing-page para el aterrizage de los potenciales clientes.
+En éste proyecto se desarrollará la página de la empresa, en la cual se construirá una web app para la carga de formularios que impactarán en su base de datos de sus clientes como también su landing-page para el aterrizage de los potenciales clientes.
 
-### `Formulario`
-
-En este apartado se exhibe un formulario de carga conteniendo los datos importantes para almacenar en la base de datos de la empresa.
 
 ### `Updates`
 

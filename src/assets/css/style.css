@@ -1,23 +1,24 @@
-body{
-    width: 100%;
-    height: auto;
+*, *::after, *::before{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-#bg-svg{
-    width: 100%;
-    height: auto;
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+.App{
+    background: url(../images/bg-body2-\(milad-fakurian-unsplash\).jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 
-.bg-white{
-    background-color: rgba(255, 255, 255, 0.945)!important;
-    max-width: 480px;
-    height: auto;
-}
-
-#pass:hover{
+#recoveryPass:hover{
     border-bottom: 1px solid rgba(114, 114, 114, 0.945);
 }

@@ -1,0 +1,48 @@
+/************ MEDIA-QUERIES **************/
+@media (width >= 770){
+    .container-footer{
+        min-height: 100vh!important;
+    }
+}
+/*********** CONFIGURACION DE FOOTER ***************/
+.container-footer{
+    position: relative;
+    height: auto;
+    min-height: 80vh;
+}
+.container-footer::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2); 
+    filter: blur(2px);
+    z-index: 0;
+}
+.content {
+    position: relative;
+    z-index: -1;
+}
+.footer-component{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.5em;
+    z-index: 2;
+}
+.txt-white, .fa-brands{
+    color: rgba(255, 255, 255, 0.945)!important;
+    opacity: .9;
+}
+.fa-brands{
+    font-size: 1.9em;
+    justify-content: center;
+}
+#br-width{
+    display: flex;
+    width: 50%;
+}
