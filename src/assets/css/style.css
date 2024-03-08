@@ -14,9 +14,11 @@ body{
     background: url(../images/bg-body2-\(milad-fakurian-unsplash\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     overflow-x: hidden;
+    width: 100%;
+    height: auto;
 }
 
 #recoveryPass:hover{

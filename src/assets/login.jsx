@@ -25,7 +25,7 @@ const Login = () =>{
                             Por favor, verificá los datos ingresados
                         </div>
                     </div>  
-                    <a href="/src/passwordRecovery" id='recoveryPass' className='text-muted text-decoration-none'>
+                    <a href="/restablecer-contraseña" className='text-muted text-decoration-none'>
                         <small>¿Olvidaste la contraseña?</small>
                     </a>
                     <div className="form-group mt-4">

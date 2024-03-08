@@ -17,21 +17,21 @@ const Footer = () => {
             <li className="nav-item mb-2">
               <div className='nav-link p-0 txt-white'>
                 In association with 
-                <a href="https://www.almatawa.com/" className="linkStyle txt-white p-1">
+                <a href="https://www.almatawa.com/" className="linkStyle txt-white p-1" target='_blank' rel="noreferrer">
                    AlmaTawa
                 </a>
               </div>  
             </li> 
             <li className="nav-item mb-2">
               <div className='nav-link p-0 txt-white'>
-                <a href="https://www.almatawa.com/" className="linkStyle txt-white">
+                <a href="https://www.almatawa.com/" className="linkStyle txt-white" target='_blank' rel="noreferrer">
                   Terms and Conditions
                 </a>
               </div>  
             </li> 
             <li className="nav-item mb-2">
               <div className='nav-link p-0 txt-white'>
-                <a href="https://www.almatawa.com/" className="linkStyle txt-white">
+                <a href="https://www.almatawa.com/" className="linkStyle txt-white" target='_blank' rel="noreferrer">
                   Notice of Privacy
                 </a> 
               </div>  
