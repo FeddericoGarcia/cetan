@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+*::selection{
+    background-color: rgba(63, 63, 63, 0.945);
+    color: rgb(255, 255, 255)
+}
 
 body{
     width: 100vw;

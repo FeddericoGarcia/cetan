@@ -11,12 +11,12 @@ const Footer = () => {
           <ul className="nav flex-column">
             <li className="nav-item mb-2">
               <div className='nav-link p-0 txt-white'>
-                All rights reserved
+                Todos los derechos reservardos
               </div>  
             </li> 
             <li className="nav-item mb-2">
               <div className='nav-link p-0 txt-white'>
-                In association with 
+                En asociación con  
                 <a href="https://www.almatawa.com/" className="linkStyle txt-white p-1" target='_blank' rel="noreferrer">
                    AlmaTawa
                 </a>
@@ -25,14 +25,14 @@ const Footer = () => {
             <li className="nav-item mb-2">
               <div className='nav-link p-0 txt-white'>
                 <a href="https://www.almatawa.com/" className="linkStyle txt-white" target='_blank' rel="noreferrer">
-                  Terms and Conditions
+                  Terminos y Condiciones
                 </a>
               </div>  
             </li> 
             <li className="nav-item mb-2">
               <div className='nav-link p-0 txt-white'>
                 <a href="https://www.almatawa.com/" className="linkStyle txt-white" target='_blank' rel="noreferrer">
-                  Notice of Privacy
+                  Aviso de privacidad
                 </a> 
               </div>  
             </li>

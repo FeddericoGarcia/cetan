@@ -2,7 +2,7 @@
 
 @media (width >= 770px){
     .container{
-      width: 680px;;
+      width: 680px!important;
     }
   }
 
