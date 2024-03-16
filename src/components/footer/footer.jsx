@@ -4,7 +4,6 @@ import './css/footer.css'
 const Footer = () => {
   return (
     <div className="container-fluid container-footer">
-      {/* <br id='br-width'></br> */}
       <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 footer-component">
         <div className="col mb-3 mt-1">
           <h5 className="txt-white">Grupo <b>CETAN</b> © 2024</h5>

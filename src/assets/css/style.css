@@ -7,14 +7,23 @@
     background-color: rgba(63, 63, 63, 0.945);
     color: rgb(255, 255, 255)
 }
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
-body{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    overflow-x: hidden;
+code {
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 .App{
+    /****** CREDITOS DE FOTO POR MILAD FAKURIAN EN UNSPLASH.COM *********/
     background: url(../images/bg-body2-\(milad-fakurian-unsplash\).jpg);
     background-repeat: no-repeat;
     background-size: cover;

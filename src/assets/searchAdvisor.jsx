@@ -1,6 +1,6 @@
 import Header from '../components/header/header.jsx'
 import Footer from '../components/footer/footer.jsx'
-import SearchTable from '../components/table-clients/table-ctes.jsx'
+import SearchAdvisor from '../components/table-advisor/table-advisor.jsx'
 import './css/style.css'
 
 const SearchResult= () =>{
@@ -9,8 +9,8 @@ const SearchResult= () =>{
             <Header />
             <div className="container-table my-5 mb-4 shadow justify-content-center flex-column rounded p-3">
                 <h3 className='text-center m-2'>CETAN SAS</h3>
-                <p className='m-2 py-3'>Resultados de la búsqueda de Clientes</p>
-                <SearchTable/>
+                <p className='m-2 py-3'>Resultados de la búsqueda de Asesores</p>
+                <SearchAdvisor/>
             </div>
             < Footer />
         </div>

@@ -95,8 +95,8 @@ import '../table-clients/css/style.css'
                         < ButtomForm />
                     </tr>
                 ))}
-            </tbody>
-        </table>
+                </tbody>
+            </table>
             <div className="text-center">
                 <div className="bg-white">
                     <div className="col fs-4">TOTAL IMPORTE = <span className="fw-bold">${totalImporte()}</span></div>

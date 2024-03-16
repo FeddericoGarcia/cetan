@@ -1,9 +1,7 @@
 import ButtomForm from "../buttom-form/Buttom-form";    
 import '../table-clients/css/style.css'
 
-// TODO: TERMINAR TABLA DE ASESORES
-
-    const SearchResultAdvisor = () => {
+    const SearchAdvisor = () => {
 
     let advisorList = [
         {"name": "EZEQUIEL",
@@ -37,7 +35,7 @@ import '../table-clients/css/style.css'
         "email": "ARI@GMAIL.COM",
         "dni": "1234688",
         "password": "12345678905441",
-        "admin": false,
+        "admin": true,
         "date": "00/00/0000 - 00:00"
     },
 
@@ -53,15 +51,6 @@ import '../table-clients/css/style.css'
 
     ]
 
-    let totalImporte = () =>{
-        let total = 0;
-        advisorList.map(advisor => {
-            total += parseInt(advisor.amount)
-            return total;
-        })
-        return total
-    }
-
     return (
         <div className=''>
             <table className="table table-hover">
@@ -74,6 +63,7 @@ import '../table-clients/css/style.css'
                     <th scope="col">Password</th>
                     <th scope="col">Fecha Ingreso</th>
                     <th scope="col">Admin</th>
+                    <th scope="col">Editar / Eliminar</th>
                 </tr>
             </thead>
             <tbody>
@@ -84,20 +74,15 @@ import '../table-clients/css/style.css'
                         <th scope="col" className='th-font text-uppercase'>{!advisor.email ? "SIN/INFO" : advisor.email}</th>
                         <th scope="col" className='th-font'>{advisor.dni}</th>
                         <th scope="col" className='th-font'>{advisor.password}</th>
-                        <th scope="col" className='th-font'>${advisor.date}</th>
-                        <th scope="col" className='th-font'>${advisor.admin}</th>
+                        <th scope="col" className='th-font'>{advisor.date}</th>
+                        <th scope="col" className='th-font'>{advisor.admin ? "Si" : "No"}</th>
                         < ButtomForm />
                     </tr>
                 ))}
-            </tbody>
-        </table>
-            <div className="text-center">
-                <div className="bg-white">
-                    <div className="col fs-4">TOTAL IMPORTE = <span className="fw-bold">${totalImporte()}</span></div>
-                </div>
-            </div>
+                </tbody>
+            </table>
         </div>
 )
 }
 
-export default SearchResultAdvisor;
+export default SearchAdvisor;

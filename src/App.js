@@ -5,7 +5,7 @@ import FormModalSearch from './components/forms/formModalSearch.jsx'
 import Login from './assets/login.jsx';
 import PasswordRecovery from './assets/passwordRecovery.jsx';
 import SearchResult from './assets/searchResult.jsx';
-import SearchResultAdvisor  from './components/table-advisor/table-advisor.jsx'
+import SearchAdvisor  from './assets/searchAdvisor.jsx'
 import PageNotFound from './assets/404.jsx';
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/form" element={<FormModal />} />
-        <Route path="/form-search" element={<FormModalSearch />}  />
-        <Route path="/search-result" element={<SearchResult />}  />
-        <Route path="/search-advisor" element={<SearchResultAdvisor />}  />
-        <Route path="/restablecer-contraseña" element={<PasswordRecovery />} />
+        <Route path="/formBusqueda" element={<FormModalSearch />}  />
+        <Route path="/resultadosBusqueda" element={<SearchResult />}  />
+        <Route path="/buscarAsesor" element={<SearchAdvisor />}  />
+        <Route path="/restablecerContraseña" element={<PasswordRecovery />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </Router>
